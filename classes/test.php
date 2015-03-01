@@ -12,6 +12,33 @@ use
 	mageekguy\atoum\annotations
 ;
 
+/**
+ * @method \mageekguy\atoum\asserters\adapter adapter($value)
+ * @method \mageekguy\atoum\asserters\boolean boolean($value)
+ * @method \mageekguy\atoum\asserters\castToString castToString($value)
+ * @method \mageekguy\atoum\asserters\constant constant($value)
+ * @method \mageekguy\atoum\asserters\dateInterval dateInterval($value)
+ * @method \mageekguy\atoum\asserters\dateTime dateTime($value)
+ * @method \mageekguy\atoum\asserters\error error($value)
+ * @method \mageekguy\atoum\asserters\exception exception($value)
+ * @method \mageekguy\atoum\asserters\extension extension($value)
+ * @method \mageekguy\atoum\asserters\float float($value)
+ * @method \mageekguy\atoum\asserters\hash hash($value)
+ * @method \mageekguy\atoum\asserters\integer integer($value)
+ * @method \mageekguy\atoum\asserters\mock mock($mock)
+ * @method \mageekguy\atoum\asserters\mysqlDateTime mysqlDateTime($value)
+ * @method \mageekguy\atoum\asserters\object object($value)
+ * @method \mageekguy\atoum\asserters\output output($value)
+ * @method \mageekguy\atoum\asserters\phpArray phpArray($value)
+ * @method \mageekguy\atoum\asserters\phpClass phpClass($value)
+ * @method \mageekguy\atoum\asserters\phpFunction phpFunction($value)
+ * @method \mageekguy\atoum\asserters\sizeOf sizeOf($value)
+ * @method \mageekguy\atoum\asserters\stream stream($value)
+ * @method \mageekguy\atoum\asserters\string string($value)
+ * @method \mageekguy\atoum\asserters\testedClass testedClass($value)
+ * @method \mageekguy\atoum\asserters\utf8String utf8String($value)
+ * @method \mageekguy\atoum\asserters\variable variable($value)
+ */
 abstract class test implements observable, \countable
 {
 	const testMethodPrefix = 'test';
