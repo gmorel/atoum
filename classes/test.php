@@ -38,6 +38,7 @@ use
  * @method \mageekguy\atoum\asserters\testedClass testedClass($value)
  * @method \mageekguy\atoum\asserters\utf8String utf8String($value)
  * @method \mageekguy\atoum\asserters\variable variable($value)
+ * @property mock\generator $mockGenerator
  */
 abstract class test implements observable, \countable
 {
